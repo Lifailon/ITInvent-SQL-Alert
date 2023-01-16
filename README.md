@@ -29,8 +29,8 @@
 
 ### 1. Нужно получить таблицу, в которой содержатся название и версия программы.
 
-Отфильтровать таблицу TYPE_NO по номеру типа "Программы" (CI_TYPE), т.к. номера для тругих типов (оборудование, комплектующие и т.п.) повторяются и соот-но пересекаются:
+Отфильтровать таблицу **TYPE_NO** по номеру типа "Программы" (**CI_TYPE**), т.к. номера для тругих типов (оборудование, комплектующие и т.п.) повторяются и соот-но пересекаются:
 SELECT TYPE_NO,TYPE_NAME FROM ITINVENT.dbo.CI_TYPES where CI_TYPE like '2'
 
 Отфильтровать таблицу CI_MODELS:
-SELECT MODEL_NO,MODEL_NAME FROM ITINVENT.dbo.CI_MODELS where CI_TYPE like '2'
+> SELECT MODEL_NO,MODEL_NAME FROM ITINVENT.dbo.CI_MODELS where CI_TYPE like '2'
