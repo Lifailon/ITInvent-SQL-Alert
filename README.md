@@ -44,4 +44,4 @@
 ### 3. Настраиваем оповещения.
 
 За основу беру [медот оповещений из Excel](https://github.com/Lifailon/Excel-Date-Report), в данном случае будем осуществлять отправку в **Telegram**.
-> ITInvent-SQL-Alert-Console.ps1 - вывод в консоль, для проверки.
+> ITInvent-SQL-Alert-Console.ps1 - вывод в консоль, для тестирования триггерных значений.
