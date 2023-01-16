@@ -51,7 +51,9 @@
 
 ### 3. Настраиваем оповещения.
 
-За основу беру [метод оповещений из Excel](https://github.com/Lifailon/Excel-Date-Report), в данном случае будем осуществлять отправку в **Telegram**, применяется четыре триггерных значения: 30, 14, 7 и 3 дня (дата, на момент проверки: 17.01.2023).
+За основу беру [метод оповещений из Excel](https://github.com/Lifailon/Excel-Date-Report), в данном случае будем осуществлять отправку в **Telegram**. Проверяется четыре триггерных значения: 30, 14, 7 и 3 дня (дата, на момент проверки: 17.01.2023):
+
+[ITInvent-SQL-Alert-Telegram.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Telegram.ps1)
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Telegram.jpg)
 
