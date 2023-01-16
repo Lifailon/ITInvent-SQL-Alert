@@ -29,13 +29,13 @@
 
 ### 1. Нужно получить таблицу, в которой содержатся название и версия программы.
 Отфильтровать таблицу **TYPE_NO** по номеру типа "Программы" (**CI_TYPE**), т.к. номера для тругих типов (оборудование, комплектующие и т.п.) повторяются и соот-но пересекаются:
-`SELECT TYPE_NO,TYPE_NAME FROM ITINVENT.dbo.CI_TYPES where CI_TYPE like '2'`
+` SELECT TYPE_NO,TYPE_NAME FROM ITINVENT.dbo.CI_TYPES where CI_TYPE like '2' `
 
 Отфильтровать таблицу **CI_MODELS**:
-> SELECT MODEL_NO,MODEL_NAME FROM ITINVENT.dbo.CI_MODELS where CI_TYPE like '2'
+` SELECT MODEL_NO,MODEL_NAME FROM ITINVENT.dbo.CI_MODELS where CI_TYPE like '2' `
 
 Отфильтрвоать таблицу **ITEMS**, где отсутствует пустые значения в стобце **LICENCE_DATE**:
-> SELECT LICENCE_DATE,ADDINFO,DESCR FROM ITINVENT.dbo.ITEMS where LICENCE_DATE IS NOT NULL
+` SELECT LICENCE_DATE,ADDINFO,DESCR FROM ITINVENT.dbo.ITEMS where LICENCE_DATE IS NOT NULL `
 
 ### 2. Получение данных, для постобработки в powershell:
 Выбираем модуль, я использую **System.Data.SqlClient**, который содержится в классе .NET (не требует установки). Так же выбираем метод аутентификации, по умолчанию подключение к БД будет происходить из под доменной учетной записи, от которой запущен powershell (с применением **Integrated Security=True**). Забираем две таблицы: **$db_type** и **$db_model**, при формировании **ITEMS** (**$db_date**) удаляем время и подставляем значения из первых двух с помощью select (заменив содержимое значений).
