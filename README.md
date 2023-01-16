@@ -42,7 +42,7 @@
 
 Данные в ITInvent:
 
-![Image alt](https://github.com/Lifailon/Remote-Shadow-Administrator/blob/rsa/Image/Interface-1.4.jpg)
+![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/ITInvent.jpg)
 
 > [ITInvent-SQL-Alert-Table.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Table.ps1) - вывести полученный данные в Out-GridView:
 
