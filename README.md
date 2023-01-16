@@ -45,7 +45,7 @@
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/ITInvent.jpg)
 
-> [ITInvent-SQL-Alert-Table.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Table.ps1) - вывести полученные данные в Out-GridView:
+[ITInvent-SQL-Alert-Table.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Table.ps1) - вывести полученные данные в Out-GridView:
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Table.jpg)
 
@@ -57,6 +57,6 @@
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Telegram.jpg)
 
-> Для проверки триггерных значений, можно использовать вывод в консоль: [ITInvent-SQL-Alert-Console.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Console.ps1).
+Для проверки триггерных значений, можно использовать вывод в консоль: [ITInvent-SQL-Alert-Console.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Console.ps1).
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Console.jpg)
