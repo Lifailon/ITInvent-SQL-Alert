@@ -34,3 +34,6 @@
 
 Отфильтровать таблицу **CI_MODELS**:
 > SELECT MODEL_NO,MODEL_NAME FROM ITINVENT.dbo.CI_MODELS where CI_TYPE like '2'
+
+Отфильтрвоать таблицу **ITEMS**, где отсутствует пустые значения в стобце **LICENCE_DATE**:
+> SELECT LICENCE_DATE,ADDINFO,DESCR FROM ITINVENT.dbo.ITEMS where LICENCE_DATE IS NOT NULL
