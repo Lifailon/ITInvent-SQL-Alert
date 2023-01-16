@@ -39,7 +39,14 @@
 
 ### 2. Получение данных, для постобработки в powershell:
 Выбираем модуль, я использую **System.Data.SqlClient**, который содержится в классе .NET (не требует установки). Так же выбираем метод аутентификации, по умолчанию подключение к БД будет происходить из под доменной учетной записи, от которой запущен powershell (с применением **Integrated Security=True**). Забираем две таблицы: **$db_type** и **$db_model**, при формировании **ITEMS** (**$db_date**) удаляем время и подставляем значения из первых двух с помощью select (заменив содержимое значений).
-> ITInvent-SQL-Alert-Table.ps1 - вывести полученный данные в Out-GridView.
+
+Данные в ITInvent:
+
+![Image alt](https://github.com/Lifailon/Remote-Shadow-Administrator/blob/rsa/Image/Interface-1.4.jpg)
+
+> [ITInvent-SQL-Alert-Table.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Table.ps1) - вывести полученный данные в Out-GridView:
+
+![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Table.jpg)
 
 ### 3. Настраиваем оповещения.
 
