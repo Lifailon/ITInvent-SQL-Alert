@@ -42,4 +42,4 @@
 
 ### 3. Настраиваем оповещения.
 
-За основу беру [медот оповещений из Excel](https://github.com/Lifailon/Excel-Date-Report), в данном случае буду осуществлять отправку в Telegram.
+За основу беру [медот оповещений из Excel](https://github.com/Lifailon/Excel-Date-Report), в данном случае будем осуществлять отправку в **Telegram**.
