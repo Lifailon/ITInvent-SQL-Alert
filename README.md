@@ -66,7 +66,9 @@
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Telegram.jpg)
 
-Для **проверки триггерных значений**, можно использовать вывод в консоль: [ITInvent-SQL-Alert-Console.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Console.ps1).
+#### 3.2. Для проверки триггерных значений, используйте вывод в консоль:
+
+[ITInvent-SQL-Alert-Console.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Console.ps1).
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Console.jpg)
 
