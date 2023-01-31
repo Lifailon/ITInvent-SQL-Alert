@@ -60,8 +60,18 @@
 
 [ITInvent-SQL-Alert-Telegram.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Telegram.ps1)
 
+> Если срок действия уже просрочен (дата имеет отрицательное значение), то отправка оповещений будет производиться ежедневно.
+
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Telegram.jpg)
 
 Для проверки триггерных значений, можно использовать вывод в консоль: [ITInvent-SQL-Alert-Console.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Console.ps1).
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Console.jpg)
+
+Отправка на почту:
+
+[ITInvent-SQL-Alert-Telegram.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Mail.ps1)
+
+![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Mail.jpg)
+
+> На скриншоте 
