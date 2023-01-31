@@ -72,7 +72,7 @@
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Console.jpg)
 
-#### 3.2. Отправка на почту:
+#### 3.3. Отправка на почту:
 
 [ITInvent-SQL-Alert-Telegram.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Mail.ps1)
 
