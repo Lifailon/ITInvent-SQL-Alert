@@ -73,5 +73,3 @@
 [ITInvent-SQL-Alert-Telegram.ps1](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Scripts-Public/ITInvent-SQL-Alert-Mail.ps1)
 
 ![Image alt](https://github.com/Lifailon/ITInvent-SQL-Alert/blob/rsa/Screen/Mail.jpg)
-
-> На скриншоте 
